@@ -10,3 +10,10 @@ This project is a *Voice Emotion Detection* system that runs *offline*. It takes
 - 📊 Streamlit-based interactive UI
 
 # If there is any other type of file such as .mp3 or .flac file you can convert the file to.wav file using https://convertio.co/ and then detect its text and emotion.
+
+#How to run
+```bash
+git clone  https://github.com/Bhoomika-git11/voice-emotion-detector.git 
+cd voice-emotion-detector
+python -m pip install -r requirements.txt
+python -m streamlit run app.py 
